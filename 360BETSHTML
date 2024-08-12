@@ -1,7 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>360 Bets</title>
-    <meta name="description" content="Your site description here">
-    <link rel="stylesheet" href="360Bet.css">
+    <link rel="stylesheet" href="360Bet.css"> <!-- Link to your CSS file -->
 </head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to 360 Bets</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Player Stats</a></li>
+                <li><a href="#">Projected Lines</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <section>
+            <h2>Featured Player: LeBron James</h2>
+            <p>Check out the latest stats and projections for LeBron James.</p>
+            <p>Projected Rebounds: 6.0 against the Phoenix Suns</p>
+            <p>Last 3 Games against the Suns:</p>
+            <ul>
+                <li>Game 1: 8 rebounds</li>
+                <li>Game 2: 7 rebounds</li>
+                <li>Game 3: 6 rebounds</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Recent Games</h2>
+            <p>Stay updated with the latest player performances.</p>
+            <!-- Placeholder for game stats -->
+            <div>
+                <p>LeBron James vs Lakers: 24 points, 9 rebounds, 8 assists</p>
+                <p>LeBron James vs Clippers: 30 points, 10 rebounds, 7 assists</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sidebar (optional) -->
+    <aside>
+        <h3>Upcoming Matches</h3>
+        <ul>
+            <li>Lakers vs Kings</li>
+            <li>Warriors vs Clippers</li>
+        </ul>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 360 Bets. All rights reserved.</p>
+    </footer>
+</body>
+</html>
